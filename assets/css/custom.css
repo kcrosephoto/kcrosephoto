@@ -42,7 +42,7 @@
 /* Desktop / laptop */
 @media (min-width: 992px) {
     .hero img {
-        max-height: 80vh; /* slightly smaller on big screens */
+        max-height: 60vh; /* slightly smaller on big screens 80 */
     }
 
     .hero-content h1 {
@@ -57,7 +57,7 @@
 /* Tablet */
 @media (max-width: 991px) {
     .hero img {
-        max-height: 60vh;
+        max-height: 50vh; --60
     }
 
     .hero-content h1 {
@@ -72,7 +72,7 @@
 /* Mobile */
 @media (max-width: 576px) {
     .hero img {
-        max-height: 60vh; /* show full image */
+        max-height: 50vh; /* show full image 60 */
     }
 
     .hero-content {
@@ -88,6 +88,7 @@
     }
 }
 }
+
 
 
 
