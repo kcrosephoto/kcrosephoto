@@ -12,20 +12,83 @@
 
 /* Responsive adjustments for mobile */
 @media (max-width: 576px) {
-    .hero {
-        background-position: 20% top;
-        min-height: 60vh;
-        padding: 2rem 1rem;
+   /* ================= Hero Section Styles ================= */
+.hero {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+/* Hero image */
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 90vh; /* Prevent scrolling on large screens */
+    display: block;
+}
+
+/* Hero text overlay */
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 0 2rem; /* horizontal padding */
+}
+
+/* Desktop / laptop */
+@media (min-width: 992px) {
+    .hero img {
+        max-height: 80vh; /* slightly smaller on big screens */
     }
 
-    .hero h1 {
+    .hero-content h1 {
+        font-size: 47px;
+    }
+
+    .hero-content p {
+        font-size: 19px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .hero img {
+        max-height: 60vh;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .hero img {
+        max-height: 60vh; /* show full image */
+    }
+
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    .hero-content h1 {
         font-size: 32px;
     }
 
-    .hero p {
+    .hero-content p {
         font-size: 16px;
     }
 }
+}
+
 
 
 
