@@ -13,7 +13,7 @@
 /* Responsive adjustments for mobile */
 @media (max-width: 576px) {
     .hero {
-        background-position: left top;
+        background-position: left bottom;
         min-height: 60vh;
         padding: 2rem 1rem;
     }
@@ -26,4 +26,5 @@
         font-size: 16px;
     }
 }
+
 
