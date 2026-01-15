@@ -103,5 +103,15 @@
     }
 }
 
+.btn-primary {
+    background-color: #c9500e;
+    border-color: #c9500e;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #a8430c;
+    border-color: #a8430c;
+}
 
 
