@@ -1,7 +1,13 @@
 /* Hero container */
 .hero {
     position: relative;
+}
+.hero {
+    position: absolute;
+    top: 0;
     width: 100%;
+    padding-top: 80px; /* adjust this */
+    text-align: center;
     height: 100vh;       /* fill the viewport height */
     max-height: 90vh;    /* prevent it from being too tall */
     overflow: hidden;    /* hide any overflow from the image */
@@ -81,4 +87,5 @@
         padding: 0 1rem;
     }
 }
+
 
